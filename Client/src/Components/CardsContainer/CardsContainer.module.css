@@ -1,0 +1,11 @@
+/* Estilo para el contenedor de tarjetas */
+.divCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo para los elementos dentro del contenedor de tarjetas */
+.divCards > * {
+    margin: 10px;
+}

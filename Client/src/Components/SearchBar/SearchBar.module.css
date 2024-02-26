@@ -1,0 +1,17 @@
+/* Estilo para el campo de búsqueda */
+.searchInput {
+    padding: 10px;
+    width: 300px; 
+    border: 2px solid #007bff; 
+    border-radius: 20px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilo para el campo de búsqueda cuando está enfocado */
+.searchInput:focus {
+    border-color: #0056b3; 
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

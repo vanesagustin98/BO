@@ -1,0 +1,53 @@
+/* Estilo para eliminar la decoración de texto de los enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Estilo para la tarjeta */
+.divCard {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo al pasar el mouse sobre la tarjeta */
+.divCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título de la tarjeta */
+.h2Card {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #000000;
+}
+
+/* Estilo para el contenedor de campos editables */
+.editField {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilo para el botón de eliminar */
+.btnEliminar {
+    background-color: #860f0f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo al pasar el mouse sobre el botón de eliminar */
+.btnEliminar:hover {
+    background-color: #d31c00;
+}
